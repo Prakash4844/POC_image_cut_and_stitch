@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "image-cut-and-stitch"
+version = "0.1.0"
+description = "Image Cut and stitch is a POC to cut and stitch images"
+authors = ["Prakash Sahu <pk484442@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
